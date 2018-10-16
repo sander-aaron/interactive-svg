@@ -33,6 +33,20 @@ html {
 
 }
 
-.left-ear, .right-ear {
+.left-ear {
+  transform: translateY(-10px);
+  transition: all .5s linear;
+}
 
+.right-ear {
+  transform: translateY(-10px);
+  transition: all .5s linear;
+}
+
+.bear-face:hover .left-ear {
+  transform: translateY(0);
+}
+
+.bear-face:hover .right-ear {
+  transform: translateY(0);
 }
